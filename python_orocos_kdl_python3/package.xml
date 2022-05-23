@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>python_orocos_kdl_python3</name>
-  <version>1.4.0</version>
+  <version>1.4.1</version>
   <description>
     This package contains the python bindings PyKDL for the Kinematics and Dynamics
     Library (KDL), distributed by the Orocos Project. 
