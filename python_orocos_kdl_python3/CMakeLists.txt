@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.4.6)
 
-project(python_orocos_kdl_python3)
+project(jsk_python_orocos_kdl_python3)
 
 find_package(orocos_kdl)
 include_directories(${orocos_kdl_INCLUDE_DIRS})
@@ -24,7 +24,5 @@ add_sip_python_module(PyKDL PyKDL/PyKDL.sip ${orocos_kdl_LIBRARIES})
 
 # install(FILES package.xml DESTINATION share/python_orocos_kdl)
 
-## python_orocos_kdl_pytyhon3 :: re-set PROJECT_NAME to python_orocos_kdl
-set(PROJECT_NAME python_orocos_kdl)
 ## python_orocos_kdl_pytyhon3 :: re-set CATKIN_PACKAGE_PYTHON_DESTINATION with PROJECT_NAME as python_orocos_kdl
 set(CATKIN_PACKAGE_PYTHON_DESTINATION lib/python${PYTHON_VERSION_MAJOR}/dist-packages/${PROJECT_NAME})
